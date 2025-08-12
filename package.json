@@ -1,0 +1,36 @@
+{
+  "name": "react-router-training",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-router:dev": "react-router dev",
+    "react-router:build": "react-router build",
+    "react-router:start": "react-router-serve build/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@hono/node-server": "^1.18.1",
+    "@react-router/node": "^7.7.1",
+    "@react-router/serve": "^7.7.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "hono": "^4.8.12",
+    "hono-react-router-adapter": "^0.6.5",
+    "isbot": "^5.1.29",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.7.1",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.7.1",
+    "@types/node": "^24.2.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "vite": "^7.0.6"
+  }
+}
