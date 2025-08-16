@@ -1,4 +1,4 @@
-import { Links, LinksFunction, Meta, Outlet, Scripts } from "react-router";
+import { Links, Meta, Outlet, Scripts } from "react-router";
 import "./app.css"
 
 const meta = () => {
