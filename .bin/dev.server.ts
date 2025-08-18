@@ -3,14 +3,14 @@ import { Hono } from "hono";
 const app = new Hono();
 
 app.use(async (c, next) => {
-    await next();
-    c.header("X-Powered-By", "React Router and Hono and sunar");
+  await next();
+  c.header("X-Powered-By", "React Router and Hono and sunar");
 });
 
 app.get("/api", (c) => {
-    return c.json({
-        message: "Hello",
-    });
+  return c.json({
+    message: "Hello",
+  });
 });
 
 export default app;

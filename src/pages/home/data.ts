@@ -27,7 +27,7 @@ export const blogPosts: BlogPostData[] = [
       <p>Clean typography is the foundation of readable content. Choose fonts that are easy to read and create a clear hierarchy with your headings and body text.</p>
     `,
     date: "March 15, 2024",
-    readTime: "5 min read"
+    readTime: "5 min read",
   },
   {
     id: "2",
@@ -48,7 +48,7 @@ export const blogPosts: BlogPostData[] = [
       <p>Use headings, paragraphs, and white space to break up long blocks of text. This makes content more scannable and less intimidating.</p>
     `,
     date: "March 10, 2024",
-    readTime: "4 min read"
+    readTime: "4 min read",
   },
   {
     id: "3",
@@ -69,6 +69,6 @@ export const blogPosts: BlogPostData[] = [
       <p>The best designs let the content shine. The design should support and enhance the message, not distract from it.</p>
     `,
     date: "March 5, 2024",
-    readTime: "3 min read"
-  }
+    readTime: "3 min read",
+  },
 ];

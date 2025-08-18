@@ -1,5 +1,5 @@
 import { Links, Meta, Outlet, Scripts } from "react-router";
-import "./app.css"
+import "./app.css";
 
 const meta = () => {
   return [
@@ -32,7 +32,7 @@ const meta = () => {
       href: "/site.webmanifest",
     },
   ];
-}
+};
 
 const App = () => {
   return (
@@ -47,7 +47,7 @@ const App = () => {
       </body>
     </html>
   );
-}
+};
 
 export { meta };
 export default App;

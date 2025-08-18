@@ -1,11 +1,11 @@
 import type { Route } from "./+types";
-import BlogPost from "../../components/post"
-import {blogPosts} from "./data"
+import BlogPost from "../../components/post";
+import { blogPosts } from "./data";
 
 const loader = async ({ params }: Route.LoaderArgs) => {
   let team = await Promise.resolve({ name: "React Router Team" });
   return { name: team.name };
-}
+};
 
 const Home = () => {
   return (
@@ -75,8 +75,7 @@ const Home = () => {
       </div>
     </main>
   );
-}
+};
 
-
-export { loader }
+export { loader };
 export default Home;
