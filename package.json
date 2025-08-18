@@ -9,12 +9,15 @@
     "react-router:build": "react-router build",
     "react-router:start": "react-router-serve build/server/index.js",
     "prettier": "prettier",
-    "husky": "husky",
-    "prepare": "husky"
+    "prepare": "husky",
+    "tsc": "tsc"
   },
   "lint-staged": {
+    "**/*": [
+      "pnpm run prettier --write"
+    ],
     "*.{ts,tsx}": [
-      "pnpm exec tsc --noEmit"
+      "pnpm run tsc --noEmit"
     ]
   },
   "keywords": [],
