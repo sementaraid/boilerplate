@@ -13,9 +13,11 @@
     "tsc": "tsc"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "pnpm run tsc --noEmit",
+    "**/*": [
       "pnpm run prettier --write"
+    ],
+    "**.{ts,tsx}": [
+      "pnpm run tsc --noEmit"
     ]
   },
   "keywords": [],
