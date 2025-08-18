@@ -16,7 +16,7 @@
     "**/*": [
       "pnpm run prettier --write"
     ],
-    "*.ts?(x)": [
+    "*.{ts,tsx}": [
       "pnpm run tsc --noEmit"
     ]
   },
