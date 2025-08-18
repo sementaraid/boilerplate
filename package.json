@@ -13,7 +13,12 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*": "pnpm run prettier --write"
+    "**/*": [
+      "pnpm run prettier --write"
+    ],
+    "*.ts?(x)": [
+      "pnpm run tsc --noEmit"
+    ]
   },
   "keywords": [],
   "author": "",
