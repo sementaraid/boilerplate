@@ -14,7 +14,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "pnpm run tsc --noEmit"
+      "pnpm exec tsc --noEmit"
     ]
   },
   "keywords": [],
